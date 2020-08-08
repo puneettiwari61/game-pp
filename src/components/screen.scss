@@ -1,0 +1,157 @@
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-top {
+  margin-top: 10px;
+}
+
+.container {
+  width: 375px;
+  height: 812px;
+  outline: 1px solid black;
+  overflow: hidden;
+  position: relative;
+}
+
+.start {
+  position: absolute;
+  top: 50%;
+  left: 23%;
+}
+
+.modal {
+  background-color: red;
+  color: white;
+  padding: 10px 70px;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all linear 0.3s;
+  border: 2px solid red;
+}
+
+.modal:hover {
+  background-color: white;
+  color: red;
+}
+
+.logo-img-div {
+  width: 29px;
+  height: 38px;
+  margin: 0 auto;
+  margin-top: 14px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.give-me-five-div {
+  width: 209px;
+  height: 28px;
+  margin-top: 44px;
+  margin-left: 14px;
+}
+
+.bar-1 {
+  width: 75%;
+  margin-top: 10px;
+  height: 10px;
+  background-color: Red;
+  display: inline-block;
+}
+
+.bar-2 {
+  width: 25%;
+  margin-top: 10px;
+  height: 10px;
+  background-color: #ebb186;
+  display: inline-block;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.alphabets {
+  width: 53px;
+  height: 53px;
+  color: red;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: 600;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 16px;
+  cursor: pointer;
+  transition: all linear 0.2s;
+}
+
+.alphabets:hover {
+  background-color: red;
+  color: white;
+}
+
+.words-div {
+  margin-top: 32px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 335px;
+  height: 294.46px;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-baseline {
+  align-items: baseline;
+}
+
+.words-para {
+  font-weight: 600;
+  border-bottom: 1px solid black;
+  padding-bottom: 4px;
+  margin-bottom: 13px;
+}
+
+.total-letters {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}
+
+.hi-5-img-div {
+  width: 389px;
+  height: 349px;
+  img {
+    overflow: hidden;
+    transform: translateX(-15px);
+  }
+}
+
+.new-word {
+  float: right;
+  position: absolute;
+  color: red;
+  bottom: 21%;
+  right: 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.new-word:hover {
+  text-decoration: underline;
+}
+
+.border {
+  border: 1px solid black;
+  padding: 0 5px;
+}
